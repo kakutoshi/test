@@ -1,0 +1,50 @@
+.txt p{
+	font-size: 1.5rem;
+
+}
+
+.txt a{
+	color: brown;
+	font-size: 1rem;
+	font-family: sans-serif;
+	text-shadow: 1px 1px 1px gray;
+}
+
+
+
+.contents ul {
+	max-width: 600px;
+	margin: auto;
+}
+
+
+.contents ul li {
+	display: flex;
+	align-items: center;
+	}
+
+
+.contents ul li .photo,
+.contents ul li .txt {
+	width: 50%;
+	box-sizing: border-box;
+	
+}
+
+.contents ul li:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
+
+
+.contents ul li:nth-child(odd) .txt {
+	padding-right: 10px;
+}
+
+.contents ul li:nth-child(even) .txt {
+	padding-left: 10px;
+}
+
+.photo img{
+	width: 100%;
+}

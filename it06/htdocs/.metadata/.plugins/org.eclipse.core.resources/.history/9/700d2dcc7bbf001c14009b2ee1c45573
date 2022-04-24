@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+	text-align:center;
+	background-color:white;
+	font-family:inherit;
+	font-size:1.2em;
+
+}
+
+textarea{
+	width:200px;
+	height:150px;
+}
+select{
+	width:100px;
+	height:50px;
+	font-size:1.5em:
+}
+
+
+.box{
+	padding:8px 19px;
+	margin: 2em 0;
+	color:#2c2c2f;
+	background: #cde4ff;
+	border-top: solid 5px #5989cf;
+	border-bottom: solid 5px #5989cf;
+}

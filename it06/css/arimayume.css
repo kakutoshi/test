@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body{
+	padding-top: 10rem;
+	text-align: center;
+	margin: auto;
+	font-size: 5rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<title>福丸珈琲店 || お問合せページ</title>
+	<link rel="stylesheet" href="/css/reset.css" type="text/css">
+	<link rel="stylesheet" href="/cafe_site/css/common.css" type="text/css">
+	<link rel="stylesheet" href="/cafe_site/css/cotact.css">
+</head>
+
+<body>
+	<div id="wrap">
+		<header>
+			<h1><img src="../img/rogo.png" alt="福丸珈琲店へのお問い合わせ"></h1>
+			<p>これはダミーサイトです。<br>
+				福丸珈琲店へのお問い合わせはこちらから。</p>
+		</header>
+		<nav>
+			<ul class="gnav">
+				<li class="gnav"><a href="/cafe_site/index.html">トップ</a></li>
+				<li class="gnav"><a href="/cafe_site/menu/index.html">メニュー</a></li>
+				<li class="gnav"><a href="/cafe_site/access/index.html">アクセス</a></li>
+				<li class="gnav">お問合せ</li>
+			</ul>
+		</nav>
+		<section id="main">
+			<h2>福丸珈琲店へのお問い合わせ</h2>
+			<p>ご意見・ご要望などがございましたら、お気軽にお問い合わせください。
+			<p>
+			<form id="contact_form" action="../php/dummy.php" method="post">
+				<dl>
+					<dt><label for="y-name">お名前</label></dt>
+					<dd><input type="text" name="y-name" id="y-name" placeholder="氏名"></dd>
+					<dt><label for="y-mail"> メールアドレス</label></dt>
+					<dd><input type="email" name="y-mail" id="y-mail" placeholder="sample@sample.com"></dd>
+					<dt> ご来店いただいたことはございますか</dt>
+					<dd><input type="radio" name="visit" value="はい">はい</dd>
+					<dd><input type="radio" name="visit" value="いいえ">いいえ</dd>
+					<dt> 福丸珈琲店をお知りになったきっかけ</dt>
+					<dd>
+						<select name="bring">
+							<option value="インターネット">インターネット</option>
+							<option value="通りかかったことがある">通りかかったことがある</option>
+							<option value="知人の紹介">知人の紹介</option>
+					</dd>
+					</select>
+					<dt>お問い合わせ内容</dt>
+					<dd><input type="checkbox" name="inquiry-1" value="予約">ご予約に関して</dd>
+					<dd><input type="checkbox" name="inquiry-2" value="その他">その他</dd>
+					<dd><textarea name="comment" placeholder="こちらにお問い合わせ内容をご記入ください。"></textarea></dd>
+				</dl>
+				<input type="reset" value="リセット">
+				<input type="submit" value="送信する">
+			</form>
+
+			<!-- formの練習 -->
+			<!-- <form action="">
+				<p><label>お名前<input type="text" name="y-name" placeholder="氏名"></label></p>
+
+				<p><label>パスワード<input type="password" name="pass"></label> </p> -->
+
+
+			</form>
+
+
+
+
+		</section>
+		<footer id="last">
+			<p class="center btm"><small>&copy;福丸珈琲店</small></p>
+		</footer>
+	</div>
+</body>
+
+</html>

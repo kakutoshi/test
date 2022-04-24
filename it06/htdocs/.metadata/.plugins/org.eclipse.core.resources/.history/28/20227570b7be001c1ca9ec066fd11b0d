@@ -1,8 +1,0 @@
-@charset "UTF-8";
-
-body{
-	text-align:center;
-	background-color:fuchsia:
-	font-family: sans-serif;
-
-}
